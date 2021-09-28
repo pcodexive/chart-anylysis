@@ -1,0 +1,36 @@
+.title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.underline{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.example-list-section {
+    ul {
+        list-style-type: none;
+        margin-top: 4px;
+    }
+}
+
+::ng-deep{
+    .mat-checkbox-frame, .mat-checkbox-background {
+        border-radius: 50% !important;
+    }
+    // .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-checkbox-checked.mat-accent  {
+    // background-color: #ff4081;
+    // border-radius: 50%;
+// }
+}
+.tag{
+   font-size: 20px;
+    color: #929eaa;
+    border-radius: 3px;
+    margin: 10px;
+}
+#chartdiv, #chartdiv2, .header-filter{
+    border-radius: 5px;
+    // margin-bottom: 10px;
+    border: 3px solid #ddd;
+}
